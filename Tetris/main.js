@@ -2,8 +2,7 @@
 
 /* GL constant */
 var gl = null;
-const img_path = "http://localhost:8000/";
-//https://github.ncsu.edu/gsshirey/Tetris/blob/master/piece_long.png?raw=true
+const img_path = "https://github.com/Quantumorca1/Portfolio/tree/gh-pages/Tetris/";
 
 /* Main execution */
 function main() {
