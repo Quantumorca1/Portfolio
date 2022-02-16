@@ -2,7 +2,7 @@
 
 /* GL constant */
 var gl = null;
-const img_path = "https://github.com/Quantumorca1/Portfolio/tree/gh-pages/Tetris/";
+const img_path = "";//"https://github.com/Quantumorca1/Portfolio/tree/gh-pages/Tetris/";
 
 /* Main execution */
 function main() {
