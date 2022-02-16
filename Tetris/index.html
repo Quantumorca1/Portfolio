@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prog 5: Tetris</title>
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="gl-matrix.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="renderable.js"></script>
+    <script type="text/javascript" src="renderer.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="tetronimo.js"></script>
+  </head>
+
+  <body onload="main();">
+    <div id="renderContainer">
+      <canvas id="myImageCanvas" width="800" height="800"></canvas>
+      <canvas id="myWebGLCanvas" width="800" height="800"></canvas>
+    </div>
+    <p id="score">Score: </p>
+    <p id="lines">Lines: </p>
+  </body>
+</html>

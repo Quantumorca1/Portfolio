@@ -1,0 +1,32 @@
+#renderContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#myImageCanvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#myWebGLCanvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#score {
+    padding-left: 810px;
+    font-size: 28px;
+}
+
+#lines {
+    padding-left: 810px;
+    font-size: 28px;
+}
+
+#loss {
+    padding-left: 810px;
+    font-size: 28px;
+}
