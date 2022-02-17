@@ -24,8 +24,9 @@ C#
 
 ## Boid Pathfinding and Hunting AI
 
-## Tetris Implementation
+## Tetris WebGL Implementation
 
 ## Bee Garden
 
 ## Risk (Board Game) AI
+![AI vs. Human](https://github.com/Quantumorca1/Portfolio/blob/gh-pages/images/Risk%20AI%20v%20Human.gif]
