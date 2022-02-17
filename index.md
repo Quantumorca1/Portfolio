@@ -29,4 +29,5 @@ C#
 ## Bee Garden
 
 ## Risk (Board Game) AI
-![AI vs. Human](https://github.com/Quantumorca1/Portfolio/blob/gh-pages/images/Risk%20AI%20v%20Human.gif]
+Risk AI vs. Human
+![Image](https://github.com/Quantumorca1/Portfolio/blob/gh-pages/images/Risk%20AI%20v%20Human.gif]
