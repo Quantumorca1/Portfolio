@@ -27,7 +27,7 @@ C#
 ## Tetris WebGL Implementation
 
 I created my own implementation of Tetris from scratch using WebGL and JavaScript. [You can play the game here!](https://quantumorca1.github.io/Portfolio/Tetris/) I wrote the shaders, created the graphics, and did the programming myself. Below is the shader I wrote.
-```
+```js
 var fShaderCode = `
         precision mediump float; // set float to medium precision
         // eye location
