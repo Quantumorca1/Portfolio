@@ -7,10 +7,10 @@ Game Design
 
 ## Languages
 Java
-C++
-C#
 
-# Works in Progress
+C++
+
+C#
 
 # Samples
 
@@ -30,11 +30,21 @@ This is a short demo of the game from my time working on it.
 
 ## Pinball for National Multiple Sclerosis Society
 
+This was a pinball game I created with a partner as an introductory project for the National Multiple Sclerosis Society. It is designed to be a local two player game, to show how critical assisstance is to someone with MS. The game features things like tiles that fall out of the board (representing MS pain) and an occasionally rotating board (representing MS dizziness) to be symbolic of symptoms of Multiple Sclerosis. The job of the first player is just to control all 4 paddles using the E, F, I, and J keys. The second player should mouse over the tiles to heal them and rotate the board back to its original position.
+
+
+https://user-images.githubusercontent.com/7089585/154387843-a70708a8-0144-4be5-8a41-ca15319497d8.mp4
+
+
 ## iTrust2
 
 ## Game Engine
 
 ## Boid Pathfinding and Hunting AI
+
+The goal of this project was to create an efficient AI decision tree that would hunt down and capture a target. The red boid pathfinds around the map to random locations. The green boid has a learned decision tree that developed a patrolling behavior, then a seek and capture behavior once the target is in range.
+
+![green boid seeks red boid](/images/boid ai.gif)
 
 ## Tetris WebGL Implementation
 
