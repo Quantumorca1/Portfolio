@@ -5,7 +5,7 @@
 ## Areas of Expertise
 - Game Design -->
 
-## Languages
+# Languages
 - Java
 - C++
 - C#
