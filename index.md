@@ -104,6 +104,7 @@ var fShaderCode = `
 ## Bee Garden
 
 The goal with Bee Garden was to create a complete puzzle game with narrative elements. It also combines my love of entomology with my passion for game design. All mechanics are fully implemented. [You can play the game here!](https://quantumorca1.github.io/Portfolio/Bee%20Garden.html)
+![first level of bee garden](/images/Bee Garden Level 1)
 
 ## Risk (Board Game) AI
 
