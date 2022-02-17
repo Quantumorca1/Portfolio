@@ -3,14 +3,12 @@
 # Qualifications & Areas of Expertise
 
 ## Areas of Expertise
-Game Design
+- Game Design
 
 ## Languages
-Java
-
-C++
-
-C#
+- Java
+- C++
+- C#
 
 # Samples
 
@@ -32,9 +30,7 @@ This is a short demo of the game from my time working on it.
 
 This was a pinball game I created with a partner as an introductory project for the National Multiple Sclerosis Society. It is designed to be a local two player game, to show how critical assisstance is to someone with MS. The game features things like tiles that fall out of the board (representing MS pain) and an occasionally rotating board (representing MS dizziness) to be symbolic of symptoms of Multiple Sclerosis. The job of the first player is just to control all 4 paddles using the E, F, I, and J keys. The second player should mouse over the tiles to heal them and rotate the board back to its original position.
 
-
-https://user-images.githubusercontent.com/7089585/154387843-a70708a8-0144-4be5-8a41-ca15319497d8.mp4
-
+[Video!](https://user-images.githubusercontent.com/7089585/154387843-a70708a8-0144-4be5-8a41-ca15319497d8.mp4)
 
 ## iTrust2
 
