@@ -16,6 +16,18 @@ C#
 
 ## AgriCoding
 
+AgriCoding was a game I worked on with the North Carolinian non-profit organization Katabasis. Their mission is to promote outreach in Computer Science for underrepresented STEM demographics, namely agricultural children. AgriCoding seeks to introduce children to lightweight Computer Science topics such as looping and flow of control through our custom Block Based programming language, as well as illustrate how AI will have useful applications in the agricultural economy. 
+
+Students program drones to handle actions on a farm. Their goal is to complete levels that will teach them new concepts and speed up their gameplay in the future.
+
+The project has since been passed on to another team of developers and still continues to see improvements now! One of my roles on the project was to ensure ease of development for future teams.
+
+[Click here to play!](https://quantumorca1.github.io/Portfolio/AgriCoding/)
+
+This is a short demo of the game from my time working on it.
+
+[agricoding demo](/images/nested looping.gif)
+
 ## Pinball for National Multiple Sclerosis Society
 
 ## iTrust2
