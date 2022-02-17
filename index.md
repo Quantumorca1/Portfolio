@@ -31,4 +31,4 @@ C#
 ## Risk (Board Game) AI
 Risk AI vs. Human
 
-![AI v Human](https://github.com/Quantumorca1/Portfolio/blob/gh-pages/images/Risk%20AI%20v%20Human.gif)
+![AI v Human](/images/Risk%20AI%20v%20Human.gif)
