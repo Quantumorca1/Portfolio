@@ -36,6 +36,16 @@ This was a pinball game I created with a partner as an introductory project for 
 
 ## Game Engine
 
+I created a Game Engine from nothing using SFML and ZMQ. The engine was networked and used a client/server model. It supported scripting as well with ECMAScript. Below are two different games I implemented using the engine.
+
+A platformer game!
+
+![platformer game](/images/game engine 1.gif)
+
+A bubble shooter game!
+
+![bubble game](/images/game engine 2.gif)
+
 ## Boid Pathfinding and Hunting AI
 
 The goal of this project was to create an efficient AI decision tree that would hunt down and capture a target. The red boid pathfinds around the map to random locations. The green boid has a learned decision tree that developed a patrolling behavior, then a seek and capture behavior once the target is in range.
