@@ -26,7 +26,7 @@ The project has since been passed on to another team of developers and still con
 
 This is a short demo of the game from my time working on it.
 
-[agricoding demo](/images/nested looping.gif)
+![agricoding demo](/images/nested looping.gif)
 
 ## Pinball for National Multiple Sclerosis Society
 
