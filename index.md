@@ -1,9 +1,9 @@
-# Table of Contents
+<!--# Table of Contents
 
 # Qualifications & Areas of Expertise
 
 ## Areas of Expertise
-- Game Design
+- Game Design -->
 
 ## Languages
 - Java
@@ -32,7 +32,7 @@ This was a pinball game I created with a partner as an introductory project for 
 
 [Video!](https://user-images.githubusercontent.com/7089585/154387843-a70708a8-0144-4be5-8a41-ca15319497d8.mp4)
 
-## iTrust2
+<!--## iTrust2-->
 
 ## Game Engine
 
