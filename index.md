@@ -31,4 +31,4 @@ C#
 ## Risk (Board Game) AI
 Risk AI vs. Human
 
-![AI v Human](/images/Risk%20AI%20v%20Human.gif)
+![new alt text](/images/Risk AI v Human.gif)
