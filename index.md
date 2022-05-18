@@ -17,6 +17,9 @@ header:
 
 # Samples
 
+## Paper Pets
+<iframe frameborder="0" src="https://itch.io/embed/1518623?bg_color=04091e&amp;fg_color=10f190&amp;link_color=3e2fff&amp;border_color=81ffb2" width="552" height="167"><a href="https://quantumorca1.itch.io/paper-pets">Paper Pets by Quantumorca1</a></iframe>
+
 ## AgriCoding
 
 AgriCoding was a game I worked on with the North Carolinian non-profit organization Katabasis. Their mission is to promote outreach in Computer Science for underrepresented STEM demographics, namely agricultural children. AgriCoding seeks to introduce children to lightweight Computer Science topics such as looping and flow of control through our custom Block Based programming language, as well as illustrate how AI will have useful applications in the agricultural economy. 
