@@ -22,7 +22,7 @@ header:
 
 ## AgriCoding
 
-AgriCoding was a game I worked on with the North Carolinian non-profit organization Katabasis. Their mission is to promote outreach in Computer Science for underrepresented STEM demographics, namely agricultural children. AgriCoding seeks to introduce children to lightweight Computer Science topics such as looping and flow of control through our custom Block Based programming language, as well as illustrate how AI will have useful applications in the agricultural economy. 
+AgriCoding was a game I worked on with the North Carolinian non-profit organization Katabasis. Their mission is to promote outreach in Computer Science for underrepresented STEM demographics, namely agricultural children. AgriCoding seeks to introduce children to lightweight Computer Science topics such as looping and flow of control through our custom Block Based programming language, as well as illustrate how AI will have useful applications in the agricultural economy.
 
 Students program drones to handle actions on a farm. Their goal is to complete levels that will teach them new concepts and speed up their gameplay in the future.
 
