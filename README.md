@@ -1,2 +1,2 @@
 # Portfolio
-Gavin Shirey's Portfolio
+Juniper Shirey's Portfolio
