@@ -1,0 +1,33 @@
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: [sidebar] 1fr [main-content] 5fr;
+    grid-template-rows: [header] 1fr [info] auto [footer] auto;
+    gap: 15px;
+}
+
+.header {
+    grid-column: sidebar / 3;
+    grid-row: header / info
+}
+
+.sidebar {
+    grid-column: sidebar / main-content;
+    grid-row: info / 3;
+}
+
+.welcome-box {
+    grid-column: main-content;
+    grid-row: info / 3;
+}
+
+.footer {
+    grid-column: main-content;
+    grid-row: footer;
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <title>juniper shirey</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Website_Styling.css"/>
+    <link rel="stylesheet" href="Main_Layout.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="flex-div width-adjustment">
+      <div class="main-content">
+        <div class="watercolor-header-box header">
+          <p class="pin-emoji">🦋</p>
+          <p class="header-text">Hi, I'm Juniper!</p>
+          <p class="content-text">💚She/Her💚</p>
+        </div>
+        <div class="watercolor-sidebar-box sidebar">
+          <p class="pin-emoji">🦋</p>
+          <p class="sidebar-text"><a href="./index.html">home</a></p>
+          <p class="sidebar-text"><a href="./game_portfolio.html">game portfolio</a></p>
+          <p class="sidebar-text"><a href="./resume.html">resume</a></p>
+          <!--<p>art portfolio<p>-->
+        </div>
+        <div class="watercolor-box welcome-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-text">... and I love computers, video games, biology, insects, and art too!</p>
+          <p class="content-text">i'm always chasing whatever the next greatest height for me is!</p>
+          <p class="content-emoji">🦋</p>
+          
+          <p class="content-text">i've been a software engineer, a course instructor, and a game developer.</p>
+          <p class="content-text">i'm super excited for whatever's next!</p>
+          <p class="content-emoji">🪄</p>
+
+          <p class="secret-text"><i>(currently working on secret game projects)</i></p>
+          <hr class="bottom-hr"/>
+          <p class="content-text">every day life gets a little bit brighter</p>
+
+        </div>
+        <div class="footer watercolor-box">
+          <p class="pin-emoji">🦋</p>
+
+          <p id="gift-text" class="content-text">since you were nice to me!</p>
+          <div class="flex-div">
+            <div class="watercolor-frame">
+              <p class="pin-emoji">🦋</p>
+              <img id="gift-image" src="images/background image.png"/>
+            </div>
+          </div>
+
+          <script defer>
+            function randomElement(elements) {
+              return elements[Math.floor(Math.random() * elements.length)];
+            }
+
+            var imagePath = "images/gifts/"
+            var giftImages = ["calopteryx_1.jpg", "calopteryx_2.jpg", "calopteryx_3.jpg", "frog.jpg"];
+
+            var randomImage = randomElement(giftImages);
+            document.getElementById("gift-image").src = imagePath + randomImage;
+
+            var giftText = ["since you were nice to me!", "a gift!", "woah...", "you deserve this!", "have you seen this creature?", "tada!", "allow them to accompany you"];
+            var randomText = randomElement(giftText);
+            document.getElementById("gift-text").innerHTML = randomText;
+          </script>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.main-content {
+    display: grid;
+    grid-template-columns: [sidebar] 1fr [main-content] 5fr;
+    grid-template-rows: [header] 1fr repeat(9, [info] auto);
+    gap: 15px;
+}
+
+.header {
+    grid-column: sidebar / 3;
+    grid-row: header / info 1
+}
+
+.sidebar {
+    grid-column: sidebar / main-content;
+    grid-row: info 1 / 3;
+}
+
+.content-box {
+    grid-column: main-content;
+}
+
+.content-header-text {
+    text-align: left;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.content-body-text {
+    text-align: left;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+.content-image {
+    max-width: 700px;
+    max-height: 700px;
+}

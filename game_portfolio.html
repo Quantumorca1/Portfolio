@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+  <head>
+    <title>juniper's game portfolio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Website_Styling.css"/>
+    <link rel="stylesheet" href="Portfolio_Layout.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="flex-div width-adjustment">
+      <div class="main-content">
+
+        <!--header-->
+        <div class="watercolor-header-box header">
+          <p class="pin-emoji">🦋</p>
+          <p class="header-text">Game Portfolio</p>
+        </div>
+
+        <!--sidebar-->
+        <div class="watercolor-sidebar-box sidebar">
+          <p class="pin-emoji">🦋</p>
+          <p class="sidebar-text"><a href="./index.html">home</a></p>
+          <p class="sidebar-text"><a href="./game_portfolio.html">game portfolio</a></p>
+          <p class="sidebar-text"><a href="./resume.html">resume</a></p>
+          <!--<p>art portfolio<p>-->
+        </div>
+
+        <!--content-->
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Paper Pets</p>
+          <hr class="top-hr"/>
+
+          <p class="content-body-text">This was our senior game design project, utilizing a full semester to design, plan, and implement. The goal was to create an educational game centered around a robust gameplay loop. The original concept of designing and balancing an ecosystem was my idea, again combining my love of insects with games and programming!</p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <iframe frameborder="0" src="https://itch.io/embed/1518623?bg_color=04091e&fg_color=10f190&link_color=3e2fff&border_color=81ffb2" width="552" height="167">Paper Pets by Quantumorca1</iframe>
+          </div>
+
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">AgriCoding</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">AgriCoding was a game I worked on with the North Carolinian non-profit organization Katabasis. Their mission is to promote outreach in Computer Science for underrepresented STEM demographics, namely agricultural children. AgriCoding seeks to introduce children to lightweight Computer Science topics such as looping and flow of control through our custom Block Based programming language, as well as illustrate how AI will have useful applications in the agricultural economy.</p>
+          
+          <p class="content-body-text">Students program drones to handle actions on a farm. Their goal is to complete levels that will teach them new concepts and speed up their gameplay in the future.</p>
+          <p class="content-body-text">The project has since been passed on to another team of developers and still continues to see improvements now! One of my roles on the project was to ensure ease of development for future teams.</p>
+
+          <a href="https://quantumorca1.github.io/Portfolio/AgriCoding/"><p class="content-body-text">Click here to play!</p></a>
+
+          <p class="content-body-text">This is a short demo of the game from my time working on it.</p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/nested looping.gif"/>
+          </div>
+
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Pinball for National Multiple Sclerosis Society</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">This was a pinball game I created with a partner as an introductory project for the National Multiple Sclerosis Society. It is designed to be a local two player game, to show how critical assisstance is to someone with MS. The game features things like tiles that fall out of the board (representing MS pain) and an occasionally rotating board (representing MS dizziness) to be symbolic of symptoms of Multiple Sclerosis. The job of the first player is just to control all 4 paddles using the E, F, I, and J keys. The second player should mouse over the tiles to heal them and rotate the board back to its original position.</p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <video class="content-image" controls loading="lazy"><source src="./Videos/MSPinball.mp4"/></video>
+          </div>
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Game Engine</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">I created a Game Engine from nothing using SFML and ZMQ. The engine was networked and used a client/server model. It supported scripting as well with ECMAScript. Below are two different games I implemented using the engine.</p>
+
+          <p class="content-body-text"><b>A platformer game!</b></p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/game engine 1.gif"/>
+          </div>
+          
+          <p class="content-body-text"><b>A bubble shooter game!</b></p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/game engine 2.gif"/>
+          </div>
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Boid Pathfinding and Hunting AI</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">The goal of this project was to create an efficient AI decision tree that would hunt down and capture a target. The red boid pathfinds around the map to random locations. The green boid has a learned decision tree that developed a patrolling behavior, then a seek and capture behavior once the target is in range.</p>
+
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/boid ai.gif"/>
+          </div>
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Tetris WebGL Implementation</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">I created my own implementation of Tetris from scratch using WebGL and JavaScript. <a href="https://quantumorca1.github.io/Portfolio/Tetris/">You can play the game here!</a> I wrote the shaders, created the graphics, and did the programming myself. Below is the shader I wrote.</p>
+
+          <div class="watercolor-code-box">
+            <p class="pin-emoji">🦋</p>
+            <pre class="code-block">
+              <p class="code-text">precision mediump float; // set float to medium precision</p>
+              <p class="code-text">// eye location</p>
+              <p class="code-text">uniform vec3 uEyePosition; // the eye's position in world</p>
+
+              <p class="code-text">// light properties</p>
+              <p class="code-text">uniform vec3 uLightAmbient; // the light's ambient color</p>
+              <p class="code-text">uniform vec3 uLightDiffuse; // the light's diffuse color</p>
+              <p class="code-text">uniform vec3 uLightSpecular; // the light's specular color</p>
+              <p class="code-text">uniform vec3 uLightPosition; // the light's position</p>
+
+              <p class="code-text">// material properties</p>
+              <p class="code-text">uniform vec3 uAmbient; // the ambient reflectivity</p>
+              <p class="code-text">uniform vec3 uDiffuse; // the diffuse reflectivity</p>
+              <p class="code-text">uniform vec3 uSpecular; // the specular reflectivity</p>
+              <p class="code-text">uniform float uShininess; // the specular exponent</p>
+
+              <p class="code-text">// geometry properties</p>
+              <p class="code-text">varying vec3 vWorldPos; // world xyz of fragment</p>
+              <p class="code-text">varying vec3 vVertexNormal; // normal of fragment</p>
+              <p class="code-text">    </p>
+              <p class="code-text">// texture information</p>
+              <p class="code-text">uniform sampler2D sampler;</p>
+              <p class="code-text">uniform bool lightingMode;</p>
+              <p class="code-text">uniform bool transparencyRender;</p>
+              <p class="code-text">varying highp vec2 vTexCoord;</p>
+              <p class="code-text">	</p>
+              <p class="code-text">void main(void) {</p>
+
+              <p class="code-text"> // ambient term</p>
+              <p class="code-text"> vec3 ambient = uAmbient*uLightAmbient; </p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // diffuse term</p>
+              <p class="code-text"> vec3 normal = normalize(vVertexNormal); </p>
+              <p class="code-text"> vec3 light = normalize(uLightPosition - vWorldPos);</p>
+              <p class="code-text"> float lambert = max(0.0,dot(normal,light));</p>
+              <p class="code-text"> vec3 diffuse = uDiffuse*uLightDiffuse*lambert; // diffuse term</p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // specular term</p>
+              <p class="code-text"> vec3 eye = normalize(uEyePosition - vWorldPos);</p>
+              <p class="code-text"> vec3 halfVec = normalize(light+eye);</p>
+              <p class="code-text"> float highlight = pow(max(0.0,dot(normal,halfVec)),uShininess);</p>
+              <p class="code-text"> vec3 specular = uSpecular*uLightSpecular*highlight; // specular term</p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // combine to output color</p>
+              <p class="code-text"> vec3 colorOut = ambient + diffuse + specular; // no specular yet</p>
+              <p class="code-text"> vec4 texColor = texture2D(sampler, vTexCoord);</p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // check if rendering opaque</p>
+              <p class="code-text"> if (transparencyRender) {</p>
+              <p class="code-text">  if (texColor.a < 1.0) {</p>
+              <p class="code-text">  	discard;</p>
+              <p class="code-text">  }</p>
+              <p class="code-text"> } else {</p>
+              <p class="code-text">  if (texColor.a == 0.0 || texColor.a == 1.0) {</p>
+              <p class="code-text">  	discard;</p>
+              <p class="code-text">  }</p>
+              <p class="code-text"> }</p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // modulate</p>
+              <p class="code-text"> if (lightingMode) {</p>
+              <p class="code-text">   vec4 scaled = vec4(colorOut, 1.0) * texColor;</p>
+              <p class="code-text">   gl_FragColor = scaled;</p>
+              <p class="code-text"> }</p>
+              <p class="code-text"> </p>
+              <p class="code-text"> // replace</p>
+              <p class="code-text"> else {</p>
+              <p class="code-text">   gl_FragColor = texColor;</p>
+              <p class="code-text"> }</p>
+              <p class="code-text">}</p>
+            </pre>
+          </div>
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Bee Garden</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">The goal with Bee Garden was to create a complete puzzle game with narrative elements. It also combines my love of entomology with my passion for game design. All mechanics are fully implemented. <a href="https://quantumorca1.github.io/Portfolio/Bee%20Garden.html">You can play the game here!</a></p>
+          
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/Bee Garden Level 1.png"/>
+          </div>
+        </div>
+
+        <div class="watercolor-box content-box">
+          <p class="pin-emoji">🦋</p>
+          <p class="content-header-text">Risk (Board Game) AI</p>
+          <hr class="top-hr"/>
+          <p class="content-body-text">I created a simplified version of the popular board game Risk that could be played between humans, AI, or any combination between. The goal was to create an AI sophisticated enough that it could defeat a human player in most circumstances, barring extremely poor luck. The AI is a utility-based agent that features efficient evaluations functions and weights for the different aspects of the game. The number of players are scalable. The AI almost always wins when it goes first.</p>
+
+          <p class="content-body-text"><b>Risk AI vs. Human</b></p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/Risk AI v Human.gif">
+          </div>
+          
+          <p class="content-body-text"><b>This is a game between 4 AI players.</b></p>
+          <div class="watercolor-frame">
+            <p class="pin-emoji">🦋</p>
+            <img class="content-image" src="images/Risk AI 2.gif"/>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </body>
+</html>

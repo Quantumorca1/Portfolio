@@ -1,0 +1,147 @@
+body {
+    background-image: url('images/background image.png');
+    background-repeat: repeat;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1023px) {
+    .width-adjustment  {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+.watercolor-header-box {
+    border-image: url('images/Text Box 4.png') 76 fill / 10px;
+    border-image-repeat: stretch;
+    padding-left: 20px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    position: relative;
+}
+
+.watercolor-box {
+    border-image: url('images/Text Box 4.png') 76 fill / 10px;
+    border-image-repeat: stretch;
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+}
+
+.watercolor-sidebar-box {
+    border-image: url('images/Text Box 4.png') 76 fill / 10px;
+    border-image-repeat: stretch;
+    padding: 10px 20px;
+    height: fit-content;
+    position: sticky;
+    top: 40px;
+}
+
+.watercolor-frame {
+    border-image: url('images/Text Box 2.png') 48 48 33 fill / 10px;
+    border-image-repeat: stretch;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.watercolor-code-box {
+    border-image: url('images/Text Box code.png') 76 fill / 10px;
+    border-image-repeat: stretch;
+    height: fit-content;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.content-text {
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+.pin-emoji {
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -45px;
+    left: -10px;
+    filter: drop-shadow(2px 0px 0px rgb(80, 234, 168)) 
+          drop-shadow(-2px 0px 0px rgb(80, 234, 168)) 
+          drop-shadow(0px 2px 0px rgb(80, 234, 168)) 
+          drop-shadow(0px -2px 0px rgb(80, 234, 168));
+}
+
+.content-emoji {
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.secret-text {
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.sidebar-text {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-wrap: nowrap;
+}
+
+.code-block {
+    line-height: .5em;
+    padding-bottom: 20px;
+}
+
+.code-text {
+    line-height: 0px;
+    margin: 0px;
+}
+
+#gift-image {
+    max-width: 650px;
+}
+
+/*text and font styles*/
+.header-text {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-size:xx-large;
+}
+
+.top-hr {
+    background: linear-gradient(to right, rgb(80, 234, 168), rgba(227,63,118,1));
+    height: 2px;
+    border: 0;
+}
+
+.bottom-hr {
+    background: linear-gradient(to right, rgb(131, 61, 124), rgb(87,162,130));
+    height: 2px;
+    border: 0;
+}
+
+a {
+    color: rgb(248, 66, 157);
+}
+
+/*a:visited {
+    color: rgb(128, 47, 160);
+}*/
