@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>juniper's resume</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Website_Styling.css"/>
+    <link rel="stylesheet" href="Portfolio_Layout.css"/>
+    <link rel="stylesheet" href="Resume_Styling.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="flex-div width-adjustment">
+      <div class="main-content">
+
+        <!--header-->
+        <div class="watercolor-header-box header">
+          <p class="pin-emoji">🦋</p>
+          <p class="header-text">Resume</p>
+        </div>
+
+        <!--sidebar-->
+        <div class="watercolor-sidebar-box sidebar">
+          <p class="pin-emoji">🦋</p>
+          <p class="sidebar-text"><a href="./index.html">home</a></p>
+          <p class="sidebar-text"><a href="./game_portfolio.html">game portfolio</a></p>
+          <p class="sidebar-text"><a href="./resume.html">resume</a></p>
+          <!--<p>art portfolio<p>-->
+        </div>
+
+        <!--content-->
+        <div class="watercolor-box content-box">
+            <p class="pin-emoji">🦋</p>
+            <p class="resume-header-text">Juniper Shirey</p>
+            <hr class="resume-hr"/>
+            <div id="resume"></div>
+            <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+            <script type="module">
+                async function getMarkdownFile() {
+                    try {
+                        var response = await fetch('./data/Base_Resume.md')
+                        if (!response.ok) throw new Error('Could not retrieve file');
+
+                        var markdown = await response.text();
+                        return markdown;
+                    }
+                    catch (error) {
+                        console.error(error);
+                    }
+                }
+
+                var md = await getMarkdownFile();
+                document.getElementById('resume').innerHTML =
+                marked.parse(md);
+            </script>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </body>
+</html>

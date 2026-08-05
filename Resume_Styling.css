@@ -1,0 +1,26 @@
+#resume {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    h2 {
+        color: darkblue;
+    }
+
+    hr {
+        background: darkblue;
+        height: 2px;
+        border: 0;
+    }
+}
+
+.resume-hr {
+    background: darkblue;
+    height: 2px;
+    border: 0;
+}
+
+.resume-header-text {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
