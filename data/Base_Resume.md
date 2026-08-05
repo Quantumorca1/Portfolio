@@ -31,7 +31,7 @@ Software Engineer - Midsize Enterprise Customer - *November 2024—February 2025
 Senior Software Engineer - Midsize Fiber Customer - *December 2025—Present*
 - Serve as the technical lead, driving architectural decisions through discovery, planning, and implementation.
 - Mentor engineers through code reviews and collaborative sessions.
-- Lead the design of a solution to migrate fiber provisioning infrastructure across multiple entireprise software systems.
+- Lead the design of a solution to migrate fiber provisioning infrastructure across multiple enterprise software systems.
 - Create a modern and highly adaptable system to support multiple service types.
 - Own releases and update key project management resources with current status.
 - Communicate with project and technology teams across companies to meet business needs.
