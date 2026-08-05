@@ -40,8 +40,11 @@ Senior Software Engineer - Midsize Fiber Customer - *December 2025—Present*
 ## Education
 ------------
 **North Carolina State University**
+
 B.S. Computer Science
+
 Minors: Game Development, Entomology
+
 2018—2022
 
 ## Technologies & Languages
